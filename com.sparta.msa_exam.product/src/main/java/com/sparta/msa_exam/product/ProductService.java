@@ -34,6 +34,8 @@ public class ProductService {
     }
 
     public ProductResponseDto findById(Long id) {
-        return Objects.requireNonNull(productRepository.findById(id).orElse(null)).toProductResponseDto();
+        return productRepository.findById(id)
+                .map(Product::toProductResponseDto)
+                .orElse(null); // 존재하지 않는 상품 조회 시 null 반환
     }
 }

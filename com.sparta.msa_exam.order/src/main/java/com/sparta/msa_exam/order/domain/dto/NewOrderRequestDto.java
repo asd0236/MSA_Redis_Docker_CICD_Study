@@ -10,5 +10,5 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class NewOrderRequestDto {
-    private Long ProductId;
+    private Long productId;
 }

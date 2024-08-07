@@ -37,7 +37,7 @@ public class Order {
 
         List<Long> productIds = new ArrayList<>();
         for(OrderProduct product: this.getProductIds()) {
-            productIds.add(product.getId());
+            productIds.add(product.getProductId());
         }
 
         return OrderResponseDto.builder()

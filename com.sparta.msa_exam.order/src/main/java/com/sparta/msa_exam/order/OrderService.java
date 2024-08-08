@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
@@ -43,6 +44,7 @@ public class OrderService {
         return orderRepository.save(order).toResponseDto();
     }
 
+    @Transactional
     public OrderResponseDto addOrder(Long orderId, NewOrderRequestDto newOrderRequestDto) {
         Order order = orderRepository.findById(orderId)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Order not found"));
@@ -71,6 +73,7 @@ public class OrderService {
     // cacheNames: 이 메서드로 인해서 만들어질 캐시를 지칭하는 이름
     // key: 캐시 데이터를 구분하기 위해 활용하는 값
     @Cacheable(cacheNames = "orderCache", key = "args[0]")
+    @Transactional(readOnly = true)
     public OrderResponseDto getOrder(Long orderId) {
         Order order = orderRepository.findById(orderId)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Order not found"));

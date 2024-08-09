@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.sparta.msa_exam" target="17" />
+      <module name="com.sparta.msa_exam.main" target="17" />
+      <module name="com.sparta.msa_exam.test" target="17" />
+      <module name="com.spring-cloud.eureka.client.auth" target="17" />
+      <module name="com.spring-cloud.eureka.client.auth.main" target="17" />
+      <module name="com.spring-cloud.eureka.client.auth.test" target="17" />
+      <module name="com.spring-cloud.eureka.client.gateway" target="17" />
+      <module name="com.spring-cloud.eureka.client.gateway.main" target="17" />
+      <module name="com.spring-cloud.eureka.client.gateway.test" target="17" />
+      <module name="com.spring-cloud.eureka.client.order" target="17" />
+      <module name="com.spring-cloud.eureka.client.order.main" target="17" />
+      <module name="com.spring-cloud.eureka.client.order.test" target="17" />
+      <module name="com.spring-cloud.eureka.client.product" target="17" />
+      <module name="com.spring-cloud.eureka.client.product.main" target="17" />
+      <module name="com.spring-cloud.eureka.client.product.test" target="17" />
+      <module name="exam" target="17" />
+      <module name="exam.main" target="17" />
+      <module name="exam.test" target="17" />
+      <module name="first" target="17" />
+      <module name="first.main" target="17" />
+      <module name="first.test" target="17" />
+      <module name="second" target="17" />
+      <module name="second.main" target="17" />
+      <module name="second.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

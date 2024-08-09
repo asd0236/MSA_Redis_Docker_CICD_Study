@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../com.sparta.msa_exam.auth" />
+    <file type="web" url="file://$PROJECT_DIR$/../com.sparta.msa_exam.gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/../com.sparta.msa_exam.order" />
+    <file type="web" url="file://$PROJECT_DIR$/../com.sparta.msa_exam.product" />
+    <file type="web" url="file://$PROJECT_DIR$/../com.spring-cloud.eureka.client.first" />
+    <file type="web" url="file://$PROJECT_DIR$/../com.spring-cloud.eureka.client.second" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../../보안 구성(Oauth2) 실습/com.spring-cloud.eureka.client.auth" />
+    <file type="web" url="file://$PROJECT_DIR$/../../보안 구성(Oauth2) 실습/com.spring-cloud.eureka.client.gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/../../보안 구성(Oauth2) 실습/com.spring-cloud.eureka.client.order" />
+    <file type="web" url="file://$PROJECT_DIR$/../../보안 구성(Oauth2) 실습/com.spring-cloud.eureka.client.product" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>
